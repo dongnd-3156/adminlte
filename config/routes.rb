@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get "charts/flot" => "charts/flot"
   get "charts/inline" => "charts/inline"
   get "charts/uplot" => "charts/uplot"
+  get "widgets/widgets" => "widgets/widgets"
 end
