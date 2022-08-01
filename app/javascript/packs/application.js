@@ -10,6 +10,7 @@ require('jquery')
 require("jquery-ui")
 import $ from 'jquery';
 global.$ = jQuery
+require('vendor');
 
 
 
