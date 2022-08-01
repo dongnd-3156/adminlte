@@ -12,6 +12,8 @@
  *
  *= require_tree .
  *= require_self
- *= require vendor
+ *= require fontawesome-free/css/all.min
+ *= require overlayScrollbars/css/OverlayScrollbars
+ *= require dist/css/adminlte
  */
- 
+  

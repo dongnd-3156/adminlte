@@ -1,4 +1,4 @@
-
+//= require vendor
 import "src/bootstrap/js/bootstrap.bundle"
 import"src/dist/js/adminlte"
 
