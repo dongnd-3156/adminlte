@@ -7,6 +7,7 @@
     "@rails/ujs": "^7.0.3-1",
     "@rails/webpacker": "5.4.3",
     "chart": "^0.1.2",
+    "file-loader": "^6.2.0",
     "jquery": "^3.6.0",
     "jquery-mapael": "^2.2.0",
     "jquery-mousewheel": "^3.1.13",
