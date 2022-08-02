@@ -9,9 +9,11 @@ require("channels")
 require('vendor')
 require('jquery')
 require("jquery-ui")
+//= require_tree .
 import $ from 'jquery';
 global.$ = jQuery
-require.context('../images', true)
+const images = require.context('../images', true)
+const imagePath = (name) => images(name, true)
 
 
 

@@ -1,7 +1,7 @@
  <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
-      <%= image_pack_tag 'AdminLTELogo.png', :alt=> "AdminLTE Logo", :class => "brand-image img-circle elevation-3", :style =>"opacity: .8" %>
+      <%= image_pack_tag 'media/images/img/AdminLTELogo.png', :alt=> "AdminLTE Logo", :class => "brand-image img-circle elevation-3", :style =>"opacity: .8" %>
       <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
 
@@ -10,7 +10,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-         <%= image_pack_tag 'AdminLTELogo.png' %>
+         <%= image_pack_tag 'media/images/img/AdminLTELogo.png' %>
         </div>
         <div class="info">
           <a href="#" class="d-block">Alexander Pierce</a>
@@ -38,7 +38,7 @@
           <%= link_to '<i class="nav-icon fas fa-tachometer-alt"></i>Dashboard'.html_safe, root_path,class: "nav-link"  %>
           </li>
           <li class="nav-item">
-          <%= link_to '<i class="nav-icon fas fa-th"></i>Widgets <span class="right badge badge-danger">New</span> '.html_safe, widgets_widgets_path,class: "nav-link"  %>
+          <%= link_to '<i class="nav-icon fas fa-th"></i>Widgets <span class="right badge badge-danger">New</span> '.html_safe, pages_widgets_path,class: "nav-link"  %>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -51,52 +51,28 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/layout/top-nav.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Top Navigation</p>
-                </a>
+          <%= link_to ' <i class="far fa-circle nav-icon"></i> Top Navigation'.html_safe, layout_options_top_nav_path,class: "nav-link"  %>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Top Navigation + Sidebar</p>
-                </a>
+          <%= link_to ' <i class="far fa-circle nav-icon"></i> Top Navigation + Sidebar'.html_safe, layout_options_top_nav_sidebar_path,class: "nav-link"  %>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Boxed</p>
-                </a>
+          <%= link_to ' <i class="far fa-circle nav-icon"></i> Boxed'.html_safe, layout_options_boxed_path,class: "nav-link"  %>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/fixed-sidebar.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Fixed Sidebar</p>
-                </a>
+          <%= link_to ' <i class="far fa-circle nav-icon"></i> Fixed Top Nav'.html_safe, layout_options_fixed_topnav_path,class: "nav-link"  %>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/fixed-sidebar-custom.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Fixed Sidebar <small>+ Custom Area</small></p>
-                </a>
+          <%= link_to ' <i class="far fa-circle nav-icon"></i> Fixed Sidebar <small>+ Custom Area</small> '.html_safe, layout_options_boxed_path,class: "nav-link"  %>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/fixed-topnav.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Fixed Navbar</p>
-                </a>
+          <%= link_to ' <i class="far fa-circle nav-icon"></i> Fixed Navbar'.html_safe, layout_options_boxed_path,class: "nav-link"  %>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/fixed-footer.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Fixed Footer</p>
-                </a>
+          <%= link_to ' <i class="far fa-circle nav-icon"></i> Fixed Footer'.html_safe, layout_options_boxed_path,class: "nav-link"  %>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/collapsed-sidebar.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Collapsed Sidebar</p>
-                </a>
+          <%= link_to ' <i class="far fa-circle nav-icon"></i> Collapsed Sidebar'.html_safe, layout_options_boxed_path,class: "nav-link"  %>
               </li>
             </ul>
           </li>
@@ -112,15 +88,15 @@
               <li class="nav-item">
                 <%= link_to '<i class="far fa-circle nav-icon"></i> ChartJS'.html_safe, charts_chartjs_path,class: "nav-link"   %>
               </li>
-              <li class="nav-item">
-                <%= link_to '<i class="far fa-circle nav-icon"></i> Flot'.html_safe, charts_flot_path,class: "nav-link"   %>
-              </li>
-              <li class="nav-item">
-                <%= link_to '<i class="far fa-circle nav-icon"></i> Inline'.html_safe, charts_inline_path,class: "nav-link"   %>
-              </li>
-              <li class="nav-item">
-                <%= link_to '<i class="far fa-circle nav-icon"></i> uPlot'.html_safe, charts_inline_path,class: "nav-link"   %>
-              </li>
+              <%# <li class="nav-item"> %>
+                <%# <%= link_to '<i class="far fa-circle nav-icon"></i> Flot'.html_safe, charts_flot_path,class: "nav-link"   %> 
+              <%# </li> %>
+              <%# <li class="nav-item"> %>
+                <%# <%= link_to '<i class="far fa-circle nav-icon"></i> Inline'.html_safe, charts_inline_path,class: "nav-link"   %> 
+              <%# </li> %>
+              <%# <li class="nav-item"> %>
+                <%# <%= link_to '<i class="far fa-circle nav-icon"></i> uPlot'.html_safe, charts_inline_path,class: "nav-link"   %>
+              <%# </li> %>
             </ul>
           </li>
           <li class="nav-item">
@@ -248,21 +224,10 @@
           </li>
           <li class="nav-header">EXAMPLES</li>
           <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
-              <i class="nav-icon fas fa-calendar-alt"></i>
-              <p>
-                Calendar
-                <span class="badge badge-info right">2</span>
-              </p>
-            </a>
+          <%= link_to '<i class="nav-icon fas fa-calendar-alt"></i>Calendar <span class="badge badge-info right">2</span> '.html_safe, pages_calendars_path,class: "nav-link"  %>
           </li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Gallery
-              </p>
-            </a>
+          <%= link_to '<i class="nav-icon far fa-image"></i> Gallery'.html_safe, pages_gallery_path,class: "nav-link"  %>
           </li>
           <li class="nav-item">
             <a href="pages/kanban.html" class="nav-link">

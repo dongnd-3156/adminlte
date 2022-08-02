@@ -19,3 +19,15 @@ require("src/jquery-mousewheel/jquery.mousewheel")
 // <!-- ChartJS -->
 require("src/chart.js/Chart")
 require("src/popper/popper")
+
+//calendar
+require("src/moment/moment.min")
+require("src/fullcalendar/main")
+require("src/jquery-ui/jquery-ui.min")
+
+
+//gallery
+require("src/ekko-lightbox/ekko-lightbox")
+require("src/filterizr/jquery.filterizr.min")
+
+
