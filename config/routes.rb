@@ -9,6 +9,10 @@ Rails.application.routes.draw do
   get "layout_options/top-nav-sidebar" => "layoutoptions/top_nav_sidebar"
   get "layout_options/boxed" => "layoutoptions/boxed"
   get "layout_options/fixed_topnav" => "layoutoptions/fixed_topnav"
+  get "uis/general" => "ui/general"
+  get "uis/buttons" => "ui/buttons"
+
+
 
 
   

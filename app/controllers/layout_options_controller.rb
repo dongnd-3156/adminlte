@@ -6,4 +6,6 @@ class LayoutOptionsController < ActionController::Base
     end
     def boxed
     end
+    def fixed_topnav
+    end
 end
