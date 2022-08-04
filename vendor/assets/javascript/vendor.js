@@ -19,6 +19,11 @@ require("src/jquery-mousewheel/jquery.mousewheel")
 // <!-- ChartJS -->
 require("src/chart.js/Chart")
 require("src/popper/popper")
+require("src/flot/jquery.flot")
+require("src/flot/plugins/jquery.flot.resize")
+require("src/flot/plugins/jquery.flot.pie")
+
+
 
 //gallery
 require("src/ekko-lightbox/ekko-lightbox")

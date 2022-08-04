@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   root "homes#index"
   get "charts/chartjs" => "charts/chartjs"
+  get "charts/flot" => "charts/flot"
   get "pages/widgets" => "pages/widgets" 
   get "pages/calendars" => "pages/calendars"
   get "pages/gallery" => "pages/gallery"
